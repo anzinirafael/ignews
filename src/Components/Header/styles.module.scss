@@ -1,0 +1,21 @@
+.headerContainer {
+    height: 5rem;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 25rem;
+    padding: 1.8rem 11rem;
+    nav{
+        margin-left: 5rem;
+        a{
+            margin-right: 2rem;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            color: var(--gray-100);
+            font-weight: 400;
+        }
+    }
+}
