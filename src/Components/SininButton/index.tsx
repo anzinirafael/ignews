@@ -3,7 +3,7 @@ import { FiX } from 'react-icons/fi';
 import styles from './style.module.scss'; 
 
 export function SininButton(){
-    const isUserLoggedIn = true;
+    const isUserLoggedIn = false;
 
     return isUserLoggedIn ? (
         <button type="button" className={styles.singInButton}>
