@@ -1,4 +1,6 @@
+import { SininButton } from '../SininButton';
 import style from './styles.module.scss';
+
 
 export function Header(){
     return(
@@ -9,6 +11,7 @@ export function Header(){
                     <a href="#" className={style.active}>Home</a>
                     <a href="#" >Posts</a>
                 </nav>
+                <SininButton />
             </div>
         </header>
     );
