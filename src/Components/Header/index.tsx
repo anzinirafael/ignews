@@ -1,4 +1,4 @@
-import { SininButton } from '../SininButton';
+import { SininButton } from '../SinginButton';
 import style from './styles.module.scss';
 
 
