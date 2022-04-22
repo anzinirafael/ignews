@@ -6,8 +6,8 @@ export function Header(){
             <div className={style.headerContent}>
                 <img src="/images/logo.svg" alt="" />
                 <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Posts</a>
+                    <a href="#" className={style.active}>Home</a>
+                    <a href="#" >Posts</a>
                 </nav>
             </div>
         </header>
